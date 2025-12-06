@@ -26,6 +26,15 @@ The NASA C-MAPSS dataset contains run-to-failure simulations of turbofan engines
 
 Each dataset varies in the number of operating conditions (1 or 6) and fault modes (1 or 2), providing different levels of complexity for model development.
 
+For the MVP (Version 0) of the project, we focus on the dataset FD001, because it is the one with the least complexity. 
+
+- FD001: 1 operation condition (sea level), 1 fault mode (HPC degradation)
+- FD002: 6 operation conditions, 1 fault mode (HPC degradation)
+- FD003: 1 operating condition  (sea level), 2 fault modes (HPC Degradation, Fan Degradation)
+- FD004: 6 operating condition, 2 fault modes  (HPC Degradation, Fan Degradation)
+
+(Source: ~/data/CMAPSSData/readme.txt)
+
 ## Project Differentiation
 
 Unlike many existing CMAPSS projects that focus solely on deep learning approaches or single models, this project:
